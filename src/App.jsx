@@ -2,6 +2,7 @@
 
 import Header from './components/Header';
 import Main from './components/Main';
+import DownloadButton from './components/DownloadButton';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      <DownloadButton />
     </div>
   );
 }
