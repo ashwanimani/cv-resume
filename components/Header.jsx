@@ -2,11 +2,11 @@
 // src/components/Header.jsx
 import './Header.css';
 function Header() {
-    return (
-      <header>
-        <h1>My CV Resume</h1>
-      </header>
-    );
-  }
-  
-  export default Header;
+  return (
+    <header className="pdf-hidden">
+      <h1>My CV Resume</h1>
+    </header>
+  );
+}
+
+export default Header;
